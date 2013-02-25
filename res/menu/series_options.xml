@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/all_times"
+        android:title="All Times"/>
+    <item
+        android:id="@+id/time_distribution"
+        android:title="Time Distribution"/>
+    <item
+        android:id="@+id/top_contributors"
+        android:title="Top Contributors"/>
+    <item
+        android:id="@+id/fastest_contributors"
+        android:title="Fastest Contributors"/>
+
+</menu>

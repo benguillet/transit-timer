@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/title"
+        android:textSize="24.5sp"
+        android:padding="10dip" />
+  
+     <Button
+         android:id="@+id/map_button"
+         android:text="@string/map_label"
+         android:drawableLeft="@drawable/search_icon"
+         android:background="@drawable/btn_blue"
+         style="@style/portrait_phone_menu_button"></Button>
+
+
+      <Button
+           android:id="@+id/caf_button"
+           android:text="@string/caf_label"
+           android:drawableLeft="@drawable/caf_icon"
+           android:background="@drawable/btn_red"
+           style="@style/portrait_phone_menu_button"></Button>
+
+
+       <Button
+            android:id="@+id/analytics_button"
+            android:text="@string/analytics_label"
+            android:drawableLeft="@drawable/analytics_icon"
+            android:background="@drawable/btn_purple"
+            style="@style/portrait_phone_menu_button"></Button>
+
+        <Button
+            android:id="@+id/about_button"
+            android:text="@string/about_label"
+            android:drawableLeft="@drawable/about_icon"
+            android:background="@drawable/btn_yellow"
+            style="@style/portrait_phone_menu_button"></Button>
+
+
+         <Button
+             android:id="@+id/debug_button"
+             android:text="@string/debug_label"
+             android:drawableLeft="@drawable/debug_icon"
+             android:background="@drawable/btn_green"
+             style="@style/portrait_phone_menu_button"></Button>
+    
+</LinearLayout>

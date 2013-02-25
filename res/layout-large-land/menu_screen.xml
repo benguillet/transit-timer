@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    android:paddingRight="35dip" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="25dip"
+        android:text="@string/title"
+        android:textSize="36sp" />
+    
+    <TableLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:stretchColumns="*">
+        <TableRow>
+             <Button
+		        android:id="@+id/map_button"
+		        android:text="@string/map_label"
+		        android:drawableLeft="@drawable/search_icon"
+		        android:background="@drawable/btn_blue"
+		        style="@style/landscape_tablet_menu_button"></Button>
+             
+              <Button
+                android:id="@+id/analytics_button"
+                android:text="@string/analytics_label"
+                android:drawableLeft="@drawable/analytics_icon"
+                android:background="@drawable/btn_purple"
+                style="@style/landscape_tablet_menu_button"></Button>     
+        </TableRow>
+        
+        <TableRow>
+             <Button
+		        android:id="@+id/caf_button"
+		        android:text="@string/caf_label"
+		        android:drawableLeft="@drawable/caf_icon"
+		        android:background="@drawable/btn_red"
+		        style="@style/landscape_tablet_menu_button"></Button>
+
+            <Button
+		        android:id="@+id/debug_button"
+		        android:text="@string/debug_label"
+		        android:drawableLeft="@drawable/debug_icon"
+		        android:background="@drawable/btn_green"
+		        style="@style/landscape_tablet_menu_button"></Button>
+         
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/about_button"
+        android:text="@string/about_label"
+        android:layout_width="match_parent"
+        android:drawableLeft="@drawable/about_icon"
+        android:background="@drawable/btn_yellow"
+        style="@style/landscape_tablet_menu_button"></Button>
+    
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    
+    <string name="app_name">Transit Timer</string>
+    <string name="title">Transit Timer</string>
+    <string name="chart_type">Chart Type | </string>
+    <string name="add_series">Add Series</string>
+    <string name="time_distribution">Time Distribution</string>
+    <string name="all_times">All Times</string>
+    <string name="top_contributors">Top Contributors</string>
+    <string name="fastest_contributors">Fastest Contributors</string>
+    <string name="menu_settings">Settings</string>
+    <string name="average_time_label">Average Time Through Line: </string>
+    <string name="over_label">   taken over: </string>
+    <string name="insert_time">Insert Time</string>
+    <string name="average_time">Get Time</string>
+    <string name="start_label">Start Timing</string>
+    <string name="stop_label">Stop Timing</string>
+    <string name="loginNameLabel">Recommended: use your St. Olaf email.</string>
+    <string name="loginPrompt">Welcome new user! Enter your username.</string>
+    <string name="inflate_db">Inflate DB</string>
+    <string name="refresh">Refresh</string>
+    <string name="about_caf">About the Caf</string>
+    <string name="daily_menu">Daily Menu</string>
+    <string name="food_rankings">Food Rankings</string>
+    <string name="in_caf_label">Number of People in the Caf: </string>
+    <string name="search_mode">Search for Time | </string>
+    <string name="timer_mode"> | Time Route | </string>
+    <string name="listen_mode"> | Location Listener</string>
+    <string name="map_label">Map</string>
+    <string name="caf_label">Caf</string>
+    <string name="analytics_label">Analytics</string>
+    <string name="about_label">About</string>
+    <string name="debug_label">Debug</string>
+    <string name="about_string">Made in 10 days by Benjamin Guillet and Rogan Magee as a final project for
+                CSCI284 Mobile Computing Applications at St. Olaf College in Interim 2013. \n \n (benjamin.guillet || rgmcds) @gmail.com</string>
+    
+</resources>

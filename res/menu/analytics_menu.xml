@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/all_times"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/all_times"/>
+    
+    <item
+        android:id="@+id/top_contributors"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/top_contributors"/>
+    
+    <item
+        android:id="@+id/fastest_contributors"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/fastest_contributors"/>
+    
+    <item
+        android:id="@+id/time_distribution"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/time_distribution"/>
+    
+
+</menu>

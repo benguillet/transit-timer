@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="series_list">
+        <item>All Times</item>
+        <item>Time Distribution</item>
+        <item>Top 10 Contributors</item>
+        <item>Top 10 Fastest</item>
+    </string-array>
+</resources>
